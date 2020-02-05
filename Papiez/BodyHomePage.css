@@ -1,0 +1,52 @@
+.tp{
+    display:flex;
+    justify-content: center;
+}
+img{
+    display:flex;
+    justify-content: center;
+
+    box-shadow: black 0 0 64px;
+
+    box-sizing: border-box;
+
+    transition: transform 2s;
+
+    position: relative;
+}
+img:hover{
+    transform: scale(1.1);
+}
+p.tank{
+    position: absolute;
+    left : 25%;
+    bottom: 25%;
+
+
+    color:white;
+    font-size: xx-large;   
+}
+
+p.plane{
+    position: absolute;
+    right : 20%;
+    bottom: 25%;
+
+
+    color:white;
+    font-size: xx-large;
+
+}
+
+body{
+    background-image: url('tlo1.png');
+}
+
+section{
+    color:white;
+    background-color: rgba(255,0,0,0.5);
+    font-size: large;
+}
+
+
+

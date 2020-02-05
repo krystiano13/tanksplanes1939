@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta lang="pl">
+        <meta title="Polskie czołgi i samoloty II wojny światowej">
+        <link href="CSS/bootstrap.min.css" rel="stylesheet" type="text/css">
+        <link href="CSS/header.css" rel="stylesheet" type="text/css">
+        <link href="CSS/BodyHomePage.css" rel="stylesheet" type="text/css">
+        
+    </head>
+
+    <header>
+        <h1>Polskie czołgi i samoloty II wojny światowej</h1>
+        <div class="BtnMenu">
+            <button id="HomeBtn" class="btn btn-danger">Strona Główna</button><button id="AboutBtn" class="btn btn-danger">O projekcie</button>
+            <script>
+                const AboutBtn = document.querySelector('#AboutBtn');
+                AboutBtn.addEventListener('click',function(){
+                    window.location.href = "About.html"
+                });
+            
+            </script>
+        </div>
+        
+    </header>
+
+    <body>
+        <div class="Images">
+            
+            <img id="tankImg" src="CSS/plTank.png"><br> 
+            <img id="planeImg" src="CSS/Samoloty.png"> 
+            <script src="FromHomeToChoosing.js"></script</script>>     
+              
+        </div>
+        
+    </body>
+    
+</html>

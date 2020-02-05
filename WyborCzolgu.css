@@ -1,0 +1,25 @@
+.ChooseImg{
+    width: 25%;
+    height:12.5%;
+
+    box-shadow: 0 0 50px;
+    margin-top: 3%;
+    float: left;
+    margin-left: 2%;
+    transition: transform 2s;
+}
+.ChooseTank{
+    display: flex;
+    justify-content: center;
+}
+
+
+body{
+    background-image: url("Content/tlo2.jpg");
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.ChooseImg:hover{
+    transform: scale(1.2);
+}

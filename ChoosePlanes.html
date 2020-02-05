@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link href="bootstrap.min.css" rel="stylesheet" type="text/css">
+        <link href="header.css" rel="stylesheet" type="text/css">
+        <link href="BodyHomePage.css" rel="stylesheet" type="text/css">
+        <link href="WyborSamolotu.css" rel="stylesheet" type="text/css">
+    </head>
+    <header>
+        <h1>Samoloty</h1>
+        <div class="BtnMenu">
+            <button id="HomeBtn" class="btn btn-danger">Strona Główna</button><button id="AboutBtn" class="btn btn-danger">O projekcie</button>
+            <script>
+                const AboutBtn = document.querySelector('#AboutBtn');
+                AboutBtn.addEventListener('click',function(){
+                    window.location.href = "About.html"
+                });
+            
+            </script>
+        </div>
+    </header>
+    <body>
+        <div class="ChoosePlane">
+            <input class="ChooseImg" id="plane1" type="image" src="Content/PZL_P7.jpg"> 
+            <input class="ChooseImg" id="plane2" type="image" src="Content/preview_pzl-p-11_src_1.jpg"> 
+            <input class="ChooseImg" id="plane3" type="image" src="Content/karas.jpg">
+            <script src="js/PlanesSitesManager.js"></script>
+        </div><br>
+        <div class="ChoosePlane">
+            <input class="ChooseImg" id="plane4" type="image" src="Html/czajka.jpg">
+            <script src="czajka.js"></script> 
+        </div><br>      
+        
+    </body>
+    <script src="PlanesSitesManager.js"></script></script>>
+</html>
+
+
+

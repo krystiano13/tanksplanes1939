@@ -1,0 +1,44 @@
+h1{
+    text-align: center;
+    background-color: red;
+    color: white;
+    border-bottom: crimson solid 0.75rem;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+h1::before,
+h1::after{
+    content: '';
+    border: solid white 0.15rem;
+    flex-grow: 1;
+    
+    
+}
+body{
+    background-image: url("maxresdefault.jpg");
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.BtnMenu{
+    display: flex;
+    justify-content: center;
+}
+button{
+    margin-right: 0.5rem;
+    margin-top: 0.5rem;
+    
+    width: 30%;
+    height: 40%;
+
+    font-size: x-large;
+    color: white;
+    background-color: tomato;
+    border: none;
+    border-bottom: thistle solid 0.25rem;
+    transition:background-color 2s;
+}
+button:hover{
+    background-color: red;
+}

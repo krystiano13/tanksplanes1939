@@ -1,0 +1,48 @@
+.Images{
+    display:flex;
+    justify-content: center;
+}
+img{
+    margin-top: 2%;
+    margin-left: 1%;
+    margin-right: 1%;
+
+    
+    
+
+    box-sizing: border-box;
+
+    box-shadow: black 0 0 64px;
+
+    transition: transform 2s;
+
+    width: 45%;
+    height: 22.5%;
+    position: relative;
+}
+img:hover{
+    transform: scale(1.1);
+}
+p.tank{
+    position: absolute;
+    left : 25%;
+    bottom: 25%;
+
+
+    color:white;
+    font-size: xx-large;   
+}
+
+p.plane{
+    position: absolute;
+    right : 20%;
+    bottom: 25%;
+
+
+    color:white;
+    font-size: xx-large;
+
+    
+}
+
+
