@@ -1,4 +1,9 @@
-.Images{
+
+.tankImg{
+    display:flex;
+    justify-content: center;
+}
+.planeImg{
     display:flex;
     justify-content: center;
 }

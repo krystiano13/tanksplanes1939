@@ -17,10 +17,13 @@ h1::after{
 }
 body{
     background-image: url("maxresdefault.jpg");
-    background-size: 100%;
-    background-attachment: fixed;
-}
+    background-size: 150%;
+    
+    width: 100%;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
 
+}
 .BtnMenu{
     display: flex;
     justify-content: center;
@@ -41,4 +44,7 @@ button{
 }
 button:hover{
     background-color: red;
+}
+@media only screen and (max-width: 680px) {
+    #prawe_menu { display: none; }
 }

@@ -31,10 +31,20 @@
             
             <img id="tankImg" src="CSS/plTank.png"><br> 
             <img id="planeImg" src="CSS/Samoloty.png"> 
-            <script src="FromHomeToChoosing.js"></script</script>>     
+            <script src="FromHomeToChoosing.js"></script>   
               
         </div>
         
     </body>
+
+    <script>
+        setInterval(function(){
+            if(window.innerWidth <= 680){
+                document.body.style.backgroundImage = "url(tloMobile.jpg)";
+            }else{
+                document.body.style.backgroundImage = "url(CSS/maxresdefault.jpg)";
+            }
+        },10);
+    </script>
     
 </html>
