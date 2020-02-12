@@ -34,17 +34,19 @@
             <script src="FromHomeToChoosing.js"></script>   
               
         </div>
+
+        <script>
+            setInterval(function(){
+                if(window.innerWidth <= 680){
+                    document.body.style.backgroundImage = "url(tloMobile.jpg)";
+                }else{
+                    document.body.style.backgroundImage = "url(CSS/maxresdefault.jpg)";
+                }
+            },10);
+        </script>
         
     </body>
 
-    <script>
-        setInterval(function(){
-            if(window.innerWidth <= 680){
-                document.body.style.backgroundImage = "url(tloMobile.jpg)";
-            }else{
-                document.body.style.backgroundImage = "url(CSS/maxresdefault.jpg)";
-            }
-        },10);
-    </script>
+   
     
 </html>
