@@ -10,9 +10,17 @@
     <header>
         <h1>Czołgi</h1>
         <div class="BtnMenu">
-            <button id="HomeBtn" class="btn btn-danger">Strona Główna</button><button  class="btn btn-danger">O projekcie</button>
+            <button id="HomeBtn" class="btn btn-danger">Strona Główna</button><button id="AboutBtn" class="btn btn-danger">O projekcie</button>
+            <script>
+                const AboutBtn = document.querySelector('#AboutBtn');
+                AboutBtn.addEventListener('click',function(){
+                    window.location.href = "About.html"
+                });
+            
+            </script>
             <script src="FromTanksToHome.js"></script>
         </div>
+        
     </header>
     <body>
         <div class="ChooseTank">
