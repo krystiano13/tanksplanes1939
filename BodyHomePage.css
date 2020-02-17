@@ -49,5 +49,8 @@ p.plane{
 
     
 }
+.imageH{
+    filter:grayscale(100px);
+}
 
 

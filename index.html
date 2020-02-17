@@ -30,8 +30,18 @@
     <body>
         <div class="Images">
             
-            <img id="tankImg" src="CSS/plTank.png"><br> 
-            <img id="planeImg" src="CSS/Samoloty.png"> 
+            <img class="imageH" id="tankImg" src="CSS/plTank.png"><br> 
+            <img class="imageH" id="planeImg" src="CSS/Samoloty.png"> 
+            <style>
+                img{
+                    filter:grayscale(100%) brightness(60%);
+                    transition: 2s;
+                    border: none;
+                }
+                img:hover{
+                    filter: grayscale(0%) brightness(100%);
+                }
+            </style>
             <script src="FromHomeToChoosing.js"></script>
               
         </div>
